@@ -2,86 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Linwood Prep Meals</title>
 </head>
 
 
 <body>
-    <div class="header">
+    <div class="header-wrapper">
+        <div class="header"> <!--Section #0 Index Page (Link-Bar / Header)-->
 
-        <div class="logo"><a href="./index.html">
-            <img src="./img/logo.jpeg" height="100" width="100">
-            </a>
+            <div class="logo"><a href="./index.html">
+                <img src="./img/logo.jpeg" height="100" width="100">
+                </a>
+            </div>
+        
+            <div class="link-bar">
+                <ul class="right-links">
+                    <li><a href="##---paste-link-here---##">Link-1</a></li>
+                    <li><a href="##---paste-link-here---##">Link-2</a></li>
+                    <li><a href="##---paste-link-here---##">Link-3</a></li>
+                </ul>
+            </div>
         </div>
-    
-        <div class="link-bar">
-            <ul class="right-links">
-                <li><a href="##---paste-link-here---##">Link-1</a></li>
-                <li><a href="##---paste-link-here---##">Link-2</a></li>
-                <li><a href="##---paste-link-here---##">Link-3</a></li>
-            </ul>
-        </div>
-    <div class="1-important"> <!--Section #1 in Index Page (TOP)-->
-        <impt-container>
+    </div>
+    <div class="a-wrapper">
+        <div class="a-important maxw-container"> <!--Section #1 in Index Page (TOP)-->
+            <div class="impt-container">
+                
+                <div class="impt-title">
+                    Meal Preps Saves you Time !
+                </div>
 
-            <div class="impt-title">
-                Meal Preps Saves you Time !
+                <div class="impt-content">
+                    Ever thought about the time you spent cooking? I hate how time-consuming cooking can be, but I also enjoy good food. Meal prepping is striking the balance between the good food and efficiency.
+                </div>
+
+                <button class="call">
+                    <a href="##---paste-link-here---##">Order Now!</a>
+                </button>
             </div>
 
-            <div class="impt-content">
-                Ever thought about the time you spent cooking? I hate how time-consuming cooking can be, but I also enjoy good food. Meal prepping is striking the balance between the good food and efficiency.
+            <div class="impt-img">
+                <a href="##---paste-link-here---###"><img src="./img/meal-prepping.jpeg" width="300px"></a>
             </div>
 
-            <div class="impt-button">
-                <a href="##---paste-link-here---##">Order Now!</a>
+        </div>
+    </div>
+
+
+    <div class="cards-container maxw-container">
+
+        <div class="card-title">
+            Start with these recipes!
+        </div>
+        <div class="cards-bar"> <!--Section #2 in Index Page-->
+            <div class="card">
+                <a href="##---paste-link-here---###"><img src="./img/spicy-pork.jpeg" height=200px width=200px></a>
+                <div class="card-caption">Korean Spicy Pork</div>
             </div>
-        </impt-container>
 
-        <div class="impt-img">
-            <a href="##---paste-link-here---###"><img src="##---paste-link-here---###"></a>
+            <div class="card">
+                <a href="##---paste-link-here---###"><img src="./img/braised-pork.jpeg"  height=200px width=200px></a>
+                <div class="card-caption">Chinese Braised Pork</div>
+            </div>
+
+            <div class="card">
+                <a href="##---paste-link-here---###"><img src="./img/pork-ball.jpeg" height=200px width=200px></a>
+                <div class="card-caption">Pork Meatball</div>
+            </div>
+
+            <div class="card">
+                <a href="##---paste-link-here---###"><img src="./img/chasiu.jpeg" height=200px width=200px></a>
+                <div class="card-caption">Chasiu</div>
+            </div>
         </div>
-
-    </div>
-
-    <div class="2-cards"> <!--Section #2 in Index Page-->
-        <div class="card">
-            <a href="##---paste-link-here---###"><img src="##---paste-link-here---###"></a>
-            <div class="card-caption">Korean Spicy Pork</div>
-        </div>
-
-        <div class="card">
-            <a href="##---paste-link-here---###"><img src="##---paste-link-here---###"></a>
-            <div class="card-caption">Chinese Braised Pork</div>
-        </div>
-
-        <div class="card">
-            <a href="##---paste-link-here---###"><img src="##---paste-link-here---###"></a>
-            <div class="card-caption">Pork Meatball</div>
-        </div>
-
-        <div class="card">
-            <a href="##---paste-link-here---###"><img src="##---paste-link-here---###"></a>
-            <div class="card-caption">Chasiu</div>
-        </div>
-
-
-    </div>
     
-    <div class="index-3"> <!--Section #3 in Index Page-->
-
-        <div class="quote">
-            Being an excellent cook is great if you have a restaurant. Since cooking is not my full-time job, I try to spend as little time as possible on it.
-        </div>
-
-        <div class="author">
-            -Eka, Asian Meal Prepper
-
-        </div>
-
     </div>
-    
-    <div class="index-4"> <!--Section #4 in Index Page (BOTTOM)-->
+
+    <div class="index-3-wrapper">
+        <div class="index-3 maxw-container"> <!--Section #3 in Index Page-->
+
+            <div class="quote">
+                Being an excellent cook is great if you have a restaurant. Since cooking is not my full-time job, I try to spend as little time as possible on it.
+            </div>
+
+            <div class="author">
+                -Eka, Asian Meal Prepper
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="index-4 call-container"> <!--Section #4 in Index Page (BOTTOM)-->
         <div class="call-title">
             Too Lazy to Meal Prep?
         </div>
@@ -90,17 +105,18 @@
             Sometimes I'm really busy that I can't even find time to read-up on meal-prepping so I just buy frozen stuff. You can buy mine!
         </div>
 
-        <div class="call-button">
+        <button class="call">
             <a href="##---paste-link-here---##">Order Now!</a>
-        </div>
+        </button>
     </div>
     
 
     </div>
 </body>
 
-<footer>
-    Copyright © Eka Linwood 2024
-
-</footer>
+<div class="footer-wrapper">
+    <div class="footer">
+        Copyright © Eka Linwood 2024
+    </div>
+</div>
 </html>

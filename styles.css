@@ -1,0 +1,229 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.header-wrapper,
+.footer-wrapper,
+.a-wrapper {
+    background: #1a2c3a;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    width: 100%;
+
+}
+
+.header, .footer {
+    height: 32px;
+    color: #dbd5b2;
+    display: flex;
+    align-items: center;
+    padding: 32px 32px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.header {
+
+    font-size: 32px;
+    font-weight: 1000;
+    padding: 32px 32px;
+}
+
+.footer {
+
+    font-size: 12px;
+    justify-content: center;
+    padding: 12px 32px;
+}
+
+
+.a-important {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+
+}
+
+.impt-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.impt-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 60px 0;
+    color: #e9f1f7;
+    flex: 1;
+}
+
+
+.impt-content {
+    font-size: 20px;
+    color: #e9f1f7;
+    flex: 2;
+
+}
+
+.impt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 60px auto;
+    flex: 0 1 auto;
+    max-width: 100%;
+
+    
+}
+
+
+
+
+.link-bar {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px 8px 8px 0;
+    border-radius: 8px;
+    background: #3a972e;
+    border: 3px solid #e9f1f7;
+    font-size: 24px;
+    color: #1a2c3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+ 
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 32px;
+
+}
+
+
+.cards-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex: 0 1 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-caption {
+    text-align: center;
+}
+
+.index-3, .index-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-3-wrapper {
+    background-color: #dbd5b2 ;
+}
+
+
+.quote {
+    font-size: 32px;
+    font-style:italic;
+    margin: 32px;
+    text-align: center;
+}
+
+.author {
+    font-weight: bold;
+    margin: 32px;
+    text-align: right;
+}
+
+
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #e7dfc6;
+}
+
+button:focus {
+    outline: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    gap: 32px;
+  }
+
+
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+
+.maxw-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.call-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    background-color: #e9f1f7;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 50px;
+    border: 1px solid #ccc;
+
+}
+/*
+
+Color Scheme from coolors.co: https://coolors.co/1a2c3a-3a972e-e7dfc6-e9f1f7-b5dead
+- Gunmetal #1a2c3a (navy / dark blue)
+- Forest Green #3a972e (neon green)
+- Pearl #e7dfc6 (yellow white, lighter than Dutch White)
+- Alice Blue #e9f1f7 (blueish white kinda like Pearl)
+- Dutch White #dbd5b2 (dirty white, darker than Pearl)
+
+*/
+
+
